@@ -12,16 +12,16 @@ import logging
 import socket
 import sys
 import threading
-import pocketmine\utils\MainLogger;
-import pocketmine\utils\ServerKiller;
-import pocketmine\utils\Terminal;
-import pocketmine\utils\Timezone;
-import pocketmine\utils\Utils;
-import pocketmine\utils\VersionString;
-import pocketmine\wizard\SetupWizard;
+import pynex\utils\MainLogger;
+import pynex\utils\ServerKiller;
+import pynex\utils\Terminal;
+import pynex\utils\Timezone;
+import pynex\utils\Utils;
+import pynex\utils\VersionString;
+import pynex\wizard\SetupWizard;
 
 
-from pynex.core.server import Server
+from pynex.server import Server
 
 ascii_pynex = """
 
